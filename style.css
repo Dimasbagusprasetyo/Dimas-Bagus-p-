@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+header{
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+}
+header h1 {
+    font-size: 30px;
+}
+section p {
+    color: brown;
+}
+article h2 p{
+    color: darkorange;
+}
+nav a{
+    float: left;
+    display: block;
+    color: lemonchiffon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.colom{
+    float:left;
+    width: 50%;
+    padding: 10px;
+}
+.card{
+    background-color: ghostwhite;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: ghostwhite;
+    margin-top: 20px;
+}
+@media screen and(max-width: 800px){
+    .section, .article {
+        width: 100%;
+        padding: 0;
+    }
+}
